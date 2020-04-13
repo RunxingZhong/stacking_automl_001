@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
+
+import sys
+sys.path.append('../')
+sys.path.append('./')
+
 import numpy as np
 import pandas as pd
 import runningz_automl
