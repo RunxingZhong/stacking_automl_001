@@ -1,2 +1,2 @@
 # stacking_automl_001
-stacking result with my automl
+stacking result with my automl for tianchi ershouche price prediction.
