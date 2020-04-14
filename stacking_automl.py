@@ -10,6 +10,10 @@ import numpy as np
 import pandas as pd
 import runningz_automl
 
+import sys
+sys.path.append('../')
+sys.path.append('./')
+
 def stacking_automl(train, test, col_id, col_label, cols_fea, cols_cat, meta_train_list, meta_test_list):
     try:
         sub = runningz_automl.automl_adapter(train, test, col_id, col_label, cols_fea, cols_cat, 
